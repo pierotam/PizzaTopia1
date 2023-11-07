@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "PizzaTopia": {
+    "E34B": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/pizza-topia",
+            "outputPath": "dist/e34-b",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "PizzaTopia:build:production"
+              "browserTarget": "E34B:build:production"
             },
             "development": {
-              "browserTarget": "PizzaTopia:build:development"
+              "browserTarget": "E34B:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PizzaTopia:build"
+            "browserTarget": "E34B:build"
           }
         },
         "test": {
